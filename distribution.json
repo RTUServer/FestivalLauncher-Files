@@ -1130,9 +1130,9 @@
           "name": "flow.config.json",
           "type": "File",
           "artifact": {
-            "size": 418,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/flow.config.json",
-            "MD5": "5ee010c2837890f1d91dc09ae3b5d640",
+            "size": 416,
+            "url": "https://github.com/RTUServer/FestivalLauncher-Files/raw/servers/festival-1.20.1/files/config/flow.config.json",
+            "MD5": "5b17ff5291f9c9250b9187de503d7b9b",
             "path": "config/flow.config.json"
           }
         },

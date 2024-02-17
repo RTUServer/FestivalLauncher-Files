@@ -9,8 +9,8 @@
 	"disableEaseOut": false,
 	"bgColorTint": -16777216,
 	"bgBlurIntensity": 0.6,
-	"disableBgBlur": false,
-	"disableBgTint": false,
+	"disableBgBlur": true,
+	"disableBgTint": true,
 	"disabledScreens": [
 		"top.theillusivec4.curios.client.gui.CuriosScreen"
 	]
