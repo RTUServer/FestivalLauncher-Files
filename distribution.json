@@ -11,8 +11,8 @@
       "id": "festival-1.20.1",
       "name": "페스티벌",
       "description": "크리에이터의 화려한 놀이터! (1.20.1)",
-      "icon": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/server-icon.png",
-      "version": "1.0.1",
+      "icon": "https://github.com/RTUServer/FestivalLauncher-Files/raw/main/server-icon.png",
+      "version": "1.0.0",
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -865,6 +865,19 @@
           }
         },
         {
+          "id": "com.minenash:seamless_loading_screen:2.0.3+1.20.1@jar",
+          "name": "Seamless Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1007608,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
+            "MD5": "7fd64cade9204b1986b26fbb22a8dd5c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:serverpingerfixer:1.0.4@jar",
           "name": "Server Pinger Fixer",
           "type": "FabricMod",
@@ -1181,6 +1194,28 @@
           }
         },
         {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1688,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/sodium-extra-options.json",
+            "MD5": "ea92ddce68f28e32465fc5253a28837f",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 627,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/sodium-options.json",
+            "MD5": "0ad106f3d9288746ea64e4d5be8f9605",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
           "id": "xaerominimap-common.txt",
           "name": "xaerominimap-common.txt",
           "type": "File",
@@ -1218,9 +1253,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 4711,
+            "size": 5776,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/options.txt",
-            "MD5": "fdeab4f6c415dd87e310ea1b3c5a98d4",
+            "MD5": "bcbe830896c973edf331b42054319628",
             "path": "options.txt"
           }
         },
@@ -1230,7 +1265,7 @@
           "type": "File",
           "artifact": {
             "size": 168,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/Files/main/servers.dat",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/servers.dat",
             "MD5": "5ee0c50d7ef83439d90cf62f71661435",
             "path": "servers.dat"
           }
