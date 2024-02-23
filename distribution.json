@@ -865,19 +865,6 @@
           }
         },
         {
-          "id": "com.minenash:seamless_loading_screen:2.0.3+1.20.1@jar",
-          "name": "Seamless Loading Screen",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1007608,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
-            "MD5": "7fd64cade9204b1986b26fbb22a8dd5c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.fabricmod:serverpingerfixer:1.0.4@jar",
           "name": "Server Pinger Fixer",
           "type": "FabricMod",
