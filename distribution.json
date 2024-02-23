@@ -12,7 +12,7 @@
       "name": "페스티벌",
       "description": "크리에이터의 화려한 놀이터! (1.20.1)",
       "icon": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/server-icon.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -865,19 +865,6 @@
           }
         },
         {
-          "id": "com.minenash:seamless_loading_screen:2.0.3+1.20.1@jar",
-          "name": "Seamless Loading Screen",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1007608,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/seamless-loading-screen-2.0.3+1.20.1-fabric.jar",
-            "MD5": "7fd64cade9204b1986b26fbb22a8dd5c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.fabricmod:serverpingerfixer:1.0.4@jar",
           "name": "Server Pinger Fixer",
           "type": "FabricMod",
@@ -1090,6 +1077,19 @@
           }
         },
         {
+          "id": "xaero.minimap:xaerominimap:23.9.7@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1413155,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/fabricmods/optionalon/Xaeros_Minimap_23.9.7_Fabric_1.20.jar",
+            "MD5": "3279298080e853dfd16d063e44e59ebe"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:yet_another_config_lib_v3:3.2.2+1.20@jar",
           "name": "YetAnotherConfigLib",
           "type": "FabricMod",
@@ -1178,6 +1178,39 @@
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/plasmovoice/client.toml",
             "MD5": "0d5413a08311d1d6dd775f61e2000cd1",
             "path": "config/plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/files/config/xaerominimap-common.txt",
+            "MD5": "3806362283e66fca780eff39eb5e5e8d",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3659,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "80a6b0a0189d99bf32d86b7930c9fd79",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5591,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/files/config/xaerominimap_entities.json",
+            "MD5": "a02b452dffd30bbef29c91e3052afb2f",
+            "path": "config/xaerominimap_entities.json"
           }
         },
         {
