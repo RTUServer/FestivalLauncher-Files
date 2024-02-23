@@ -1082,7 +1082,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1413155,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/fabricmods/optionalon/Xaeros_Minimap_23.9.7_Fabric_1.20.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Xaeros_Minimap_23.9.7_Fabric_1.20.jar",
             "MD5": "3279298080e853dfd16d063e44e59ebe"
           },
           "required": {
@@ -1186,7 +1186,7 @@
           "type": "File",
           "artifact": {
             "size": 115,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/files/config/xaerominimap-common.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap-common.txt",
             "MD5": "3806362283e66fca780eff39eb5e5e8d",
             "path": "config/xaerominimap-common.txt"
           }
@@ -1197,7 +1197,7 @@
           "type": "File",
           "artifact": {
             "size": 3659,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/files/config/xaerominimap.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap.txt",
             "MD5": "80a6b0a0189d99bf32d86b7930c9fd79",
             "path": "config/xaerominimap.txt"
           }
@@ -1208,7 +1208,7 @@
           "type": "File",
           "artifact": {
             "size": 5591,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/servers/festival-1.20.1/files/config/xaerominimap_entities.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap_entities.json",
             "MD5": "a02b452dffd30bbef29c91e3052afb2f",
             "path": "config/xaerominimap_entities.json"
           }
@@ -1230,7 +1230,7 @@
           "type": "File",
           "artifact": {
             "size": 168,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/servers.dat",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/Files/main/servers.dat",
             "MD5": "5ee0c50d7ef83439d90cf62f71661435",
             "path": "servers.dat"
           }
