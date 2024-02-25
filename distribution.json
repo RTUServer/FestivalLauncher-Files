@@ -126,6 +126,19 @@
           }
         },
         {
+          "id": "generated.fabricmod:badoptimizations:2.0.1@jar",
+          "name": "BadOptimizations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 411587,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/BadOptimizations-2.0.1.jar",
+            "MD5": "bdb807d4de64ce4b37778372d9f21c83"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.blay09.mods.balm:balm-fabric:7.2.1@jar",
           "name": "Balm",
           "type": "FabricMod",
@@ -365,6 +378,19 @@
             "size": 21767,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/cupboard-fabric-1.20.1-2.3.jar",
             "MD5": "55a98ac058841a8e819a69fef23a6e8c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:dashloader:5.0.0-beta.2+1.20.0@jar",
+          "name": "DashLoader",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5819388,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/dashloader-5.0.0-beta.2+1.20.0.jar",
+            "MD5": "eaedf409bbe209474c5b75283d58c020"
           },
           "required": {
             "value": false
@@ -1146,6 +1172,17 @@
           }
         },
         {
+          "id": "dashloader.json",
+          "name": "dashloader.json",
+          "type": "File",
+          "artifact": {
+            "size": 180,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/dashloader.json",
+            "MD5": "733eac901862a9f957498180be40eabd",
+            "path": "config/defaultoptions/extra/config/dashloader.json"
+          }
+        },
+        {
           "id": "flow.config.json",
           "name": "flow.config.json",
           "type": "File",
@@ -1271,9 +1308,9 @@
           "name": "Photon.zip",
           "type": "File",
           "artifact": {
-            "size": 1543587,
+            "size": 1550003,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/shaderpacks/Photon.zip",
-            "MD5": "ef0a9c73552784fab58351bab5568f75",
+            "MD5": "46be6fc034646f8d879572f155813cf8",
             "path": "config/defaultoptions/extra/shaderpacks/Photon.zip"
           }
         },
