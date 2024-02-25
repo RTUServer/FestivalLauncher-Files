@@ -1227,6 +1227,17 @@
           }
         },
         {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 264,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/iris.properties",
+            "MD5": "84bc070a9ed81de013c976b76b564843",
+            "path": "config/iris.properties"
+          }
+        },
+        {
           "id": "lambdynlights.toml",
           "name": "lambdynlights.toml",
           "type": "File",
