@@ -126,6 +126,16 @@
           }
         },
         {
+          "id": "net.blay09.mods.balm:balm-fabric:7.2.1@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 381115,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/balm-fabric-1.20.1-7.2.1.jar",
+            "MD5": "40bf8265453a6d0c6114bdbb482ab336"
+          }
+        },
+        {
           "id": "me.kirillirik:bedrodium:0.2.2@jar",
           "name": "Bedrodium",
           "type": "FabricMod",
@@ -371,6 +381,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:18.0.1@jar",
+          "name": "Default Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 87707,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/defaultoptions-fabric-1.20-18.0.1.jar",
+            "MD5": "26c54b2cf1ea94737d9e1878859d9697"
           }
         },
         {
@@ -1131,9 +1151,9 @@
           "type": "File",
           "artifact": {
             "size": 416,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/flow.config.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/flow.config.json",
             "MD5": "5b17ff5291f9c9250b9187de503d7b9b",
-            "path": "config/flow.config.json"
+            "path": "config/defaultoptions/extra/config/flow.config.json"
           }
         },
         {
@@ -1142,9 +1162,9 @@
           "type": "File",
           "artifact": {
             "size": 263,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/iris.properties",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/iris.properties",
             "MD5": "ef57cb6458c77038ec6ef5a2bb00a2db",
-            "path": "config/iris.properties"
+            "path": "config/defaultoptions/extra/config/iris.properties"
           }
         },
         {
@@ -1153,9 +1173,9 @@
           "type": "File",
           "artifact": {
             "size": 1112,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/lambdynlights.toml",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/lambdynlights.toml",
             "MD5": "b1016e7d1cb5fc35e6545d1e48b1aa4a",
-            "path": "config/lambdynlights.toml"
+            "path": "config/defaultoptions/extra/config/lambdynlights.toml"
           }
         },
         {
@@ -1164,9 +1184,9 @@
           "type": "File",
           "artifact": {
             "size": 138,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/languagereload.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/languagereload.json",
             "MD5": "a3d05ac65eba60160ca6273fd3df1a87",
-            "path": "config/languagereload.json"
+            "path": "config/defaultoptions/extra/config/languagereload.json"
           }
         },
         {
@@ -1175,9 +1195,9 @@
           "type": "File",
           "artifact": {
             "size": 1337,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/plasmovoice/client.toml",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/plasmovoice/client.toml",
             "MD5": "0d5413a08311d1d6dd775f61e2000cd1",
-            "path": "config/plasmovoice/client.toml"
+            "path": "config/defaultoptions/extra/config/plasmovoice/client.toml"
           }
         },
         {
@@ -1186,9 +1206,9 @@
           "type": "File",
           "artifact": {
             "size": 1688,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/sodium-extra-options.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/sodium-extra-options.json",
             "MD5": "ea92ddce68f28e32465fc5253a28837f",
-            "path": "config/sodium-extra-options.json"
+            "path": "config/defaultoptions/extra/config/sodium-extra-options.json"
           }
         },
         {
@@ -1197,9 +1217,9 @@
           "type": "File",
           "artifact": {
             "size": 627,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/sodium-options.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/sodium-options.json",
             "MD5": "0ad106f3d9288746ea64e4d5be8f9605",
-            "path": "config/sodium-options.json"
+            "path": "config/defaultoptions/extra/config/sodium-options.json"
           }
         },
         {
@@ -1208,9 +1228,9 @@
           "type": "File",
           "artifact": {
             "size": 115,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap-common.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/xaerominimap-common.txt",
             "MD5": "3806362283e66fca780eff39eb5e5e8d",
-            "path": "config/xaerominimap-common.txt"
+            "path": "config/defaultoptions/extra/config/xaerominimap-common.txt"
           }
         },
         {
@@ -1219,9 +1239,9 @@
           "type": "File",
           "artifact": {
             "size": 3659,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/xaerominimap.txt",
             "MD5": "80a6b0a0189d99bf32d86b7930c9fd79",
-            "path": "config/xaerominimap.txt"
+            "path": "config/defaultoptions/extra/config/xaerominimap.txt"
           }
         },
         {
@@ -1230,31 +1250,9 @@
           "type": "File",
           "artifact": {
             "size": 5591,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap_entities.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/config/xaerominimap_entities.json",
             "MD5": "a02b452dffd30bbef29c91e3052afb2f",
-            "path": "config/xaerominimap_entities.json"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 5776,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/options.txt",
-            "MD5": "bcbe830896c973edf331b42054319628",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 168,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/servers.dat",
-            "MD5": "5ee0c50d7ef83439d90cf62f71661435",
-            "path": "servers.dat"
+            "path": "config/defaultoptions/extra/config/xaerominimap_entities.json"
           }
         },
         {
@@ -1263,9 +1261,9 @@
           "type": "File",
           "artifact": {
             "size": 2421404,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/Chocapic13_V9_Low.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/shaderpacks/Chocapic13_V9_Low.zip",
             "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
-            "path": "shaderpacks/Chocapic13_V9_Low.zip"
+            "path": "config/defaultoptions/extra/shaderpacks/Chocapic13_V9_Low.zip"
           }
         },
         {
@@ -1273,10 +1271,10 @@
           "name": "Photon.zip",
           "type": "File",
           "artifact": {
-            "size": 1545686,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/Photon.zip",
-            "MD5": "ddf5d939408ecc817ba1ac657949c05c",
-            "path": "shaderpacks/Photon.zip"
+            "size": 1543587,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/shaderpacks/Photon.zip",
+            "MD5": "ef0a9c73552784fab58351bab5568f75",
+            "path": "config/defaultoptions/extra/shaderpacks/Photon.zip"
           }
         },
         {
@@ -1285,9 +1283,9 @@
           "type": "File",
           "artifact": {
             "size": 932571,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/RTUShader-v4.2.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/shaderpacks/RTUShader-v4.2.zip",
             "MD5": "bf170c5db6106c4b12b10fe1b8b92b26",
-            "path": "shaderpacks/RTUShader-v4.2.zip"
+            "path": "config/defaultoptions/extra/shaderpacks/RTUShader-v4.2.zip"
           }
         },
         {
@@ -1296,9 +1294,42 @@
           "type": "File",
           "artifact": {
             "size": 7069209,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/SEUS-Renewed-Low.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/shaderpacks/SEUS-Renewed-Low.zip",
             "MD5": "6f4ad9a30baeb808119bb3d586e79799",
-            "path": "shaderpacks/SEUS-Renewed-Low.zip"
+            "path": "config/defaultoptions/extra/shaderpacks/SEUS-Renewed-Low.zip"
+          }
+        },
+        {
+          "id": "keybindings.txt",
+          "name": "keybindings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3284,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/keybindings.txt",
+            "MD5": "28ee9163c8ee931beb1944c15ae94c82",
+            "path": "config/defaultoptions/keybindings.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2488,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/options.txt",
+            "MD5": "3d91c180b2c0c9f105c0d211d239c5da",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 8923,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/servers.dat",
+            "MD5": "17a67c9c5a6c598e49a33e2e492256f0",
+            "path": "config/defaultoptions/servers.dat"
           }
         }
       ]
