@@ -1260,17 +1260,6 @@
           }
         },
         {
-          "id": "client.toml",
-          "name": "client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1337,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/plasmovoice/client.toml",
-            "MD5": "0d5413a08311d1d6dd775f61e2000cd1",
-            "path": "config/plasmovoice/client.toml"
-          }
-        },
-        {
           "id": "sodium-extra-options.json",
           "name": "sodium-extra-options.json",
           "type": "File",
