@@ -571,19 +571,6 @@
           }
         },
         {
-          "id": "dev.imb11:flow:1.4.0+1.20.1@jar",
-          "name": "Flow",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2586473,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/flow-1.4.0+1.20.1.jar",
-            "MD5": "99b169917bb3653fef91381a86a00071"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.mineblock11.foglooksgoodnow:fog-looks-good-now:2.2.0+1.20.1@jar",
           "name": "FogLooksGoodNow",
           "type": "FabricMod",
