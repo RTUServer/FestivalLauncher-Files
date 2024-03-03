@@ -1159,6 +1159,17 @@
           }
         },
         {
+          "id": "biomemusic.json",
+          "name": "biomemusic.json",
+          "type": "File",
+          "artifact": {
+            "size": 1103,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/biomemusic.json",
+            "MD5": "ee94c7e3079a9bd0987812410c2d7052",
+            "path": "config/biomemusic.json"
+          }
+        },
+        {
           "id": "dashloader.json",
           "name": "dashloader.json",
           "type": "File",
@@ -1200,17 +1211,6 @@
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/servers.dat",
             "MD5": "17a67c9c5a6c598e49a33e2e492256f0",
             "path": "config/defaultoptions/servers.dat"
-          }
-        },
-        {
-          "id": "flow.config.json",
-          "name": "flow.config.json",
-          "type": "File",
-          "artifact": {
-            "size": 416,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/flow.config.json",
-            "MD5": "5b17ff5291f9c9250b9187de503d7b9b",
-            "path": "config/flow.config.json"
           }
         },
         {
@@ -1317,9 +1317,9 @@
           "name": "Photon.zip",
           "type": "File",
           "artifact": {
-            "size": 1550003,
+            "size": 1550005,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/Photon.zip",
-            "MD5": "46be6fc034646f8d879572f155813cf8",
+            "MD5": "b913980cc0c197f598b4c58f0db29b83",
             "path": "shaderpacks/Photon.zip"
           }
         },
