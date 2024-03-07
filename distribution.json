@@ -816,6 +816,20 @@
           }
         },
         {
+          "id": "com.mineblock11.mru.entry:mru:0.4.0+1.20@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 171539,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/mru-0.4.0+1.20.jar",
+            "MD5": "ead19b9cb0bea5e23ff05ea2e5340286"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "dev.tr7zw:notenoughanimations:1.7.1@jar",
           "name": "NotEnoughAnimations",
           "type": "FabricMod",
