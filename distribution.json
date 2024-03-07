@@ -149,20 +149,6 @@
           }
         },
         {
-          "id": "net.blay09.mods.balm:balm-fabric:7.2.1@jar",
-          "name": "Balm",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 381115,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/balm-fabric-1.20.1-7.2.1.jar",
-            "MD5": "40bf8265453a6d0c6114bdbb482ab336"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "me.kirillirik:bedrodium:0.2.2@jar",
           "name": "Bedrodium",
           "type": "FabricMod",
@@ -202,20 +188,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:bettermounthud:1.2.2@jar",
-          "name": "Better Mount HUD",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 21587,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/bettermounthud-1.2.2.jar",
-            "MD5": "fdd255bd204f7d84850fd31ba687ad01"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "io.github.thecsdev:betterstats:3.8.1+fabric-1.20.1@jar",
           "name": "Better Statistics Screen",
           "type": "FabricMod",
@@ -226,20 +198,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "io.github.thecsdev:betterstats:3.8.1+fabric-1.20.1@jar",
-          "name": "Better Statistics Screen",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1020895,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/betterstats-3.8.1+fabric-1.20.1.jar",
-            "MD5": "d90c074e7fdf0d100a7cdf84d483b01d"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -269,20 +227,6 @@
           }
         },
         {
-          "id": "com.biomemusic:biomemusic:1.20.1-2.3@jar",
-          "name": "Biome Music Mod",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 21174,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/biomemusic-fabric-1.20.1-2.3.jar",
-            "MD5": "f9c794f28fe3063b6dc7c155435cc260"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "com.tterrag:blur:3.1.0@jar",
           "name": "Blur (Fabric)",
           "type": "FabricMod",
@@ -293,20 +237,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "com.tterrag:blur:3.1.0@jar",
-          "name": "Blur (Fabric)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 164085,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/blur-3.1.0.jar",
-            "MD5": "5c2350374a817c510596dc2e96d5a20a"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -362,20 +292,6 @@
           }
         },
         {
-          "id": "me.cael:capes:1.5.2+1.20@jar",
-          "name": "Capes",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 170082,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/capes-1.5.2+1.20-fabric.jar",
-            "MD5": "312590823dd12dc676f8908be2e8396d"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "generated.fabricmod:caramelchat:1.1.1@jar",
           "name": "CaramelChat",
           "type": "FabricMod",
@@ -399,20 +315,6 @@
           }
         },
         {
-          "id": "net.lizistired:cavedust:1.4.1@jar",
-          "name": "Cave Dust",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 239387,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/cave_dust-1.4.1.jar",
-            "MD5": "2aa52eb33b4c3da644b5a77776d6ebf7"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "ezzenix.chatanimation:chatanimation:1.0.5@jar",
           "name": "ChatAnimation",
           "type": "FabricMod",
@@ -423,20 +325,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "ezzenix.chatanimation:chatanimation:1.0.5@jar",
-          "name": "ChatAnimation",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 16345637,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/chatanimation-1.0.5.jar",
-            "MD5": "352e79d9617ed4adda0d3ba12936fef0"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -496,20 +384,6 @@
           }
         },
         {
-          "id": "com.cupboard:cupboard:1.20.1-2.3@jar",
-          "name": "Cupboard",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 21767,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/cupboard-fabric-1.20.1-2.3.jar",
-            "MD5": "55a98ac058841a8e819a69fef23a6e8c"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "generated.fabricmod:dashloader:5.0.0-beta.2+1.20.0@jar",
           "name": "DashLoader",
           "type": "FabricMod",
@@ -546,20 +420,6 @@
           }
         },
         {
-          "id": "net.blay09.mods:defaultoptions:18.0.1@jar",
-          "name": "Default Options",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 87707,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/defaultoptions-fabric-1.20-18.0.1.jar",
-            "MD5": "26c54b2cf1ea94737d9e1878859d9697"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "me.ImJoshh:elytra_physics:2.0@jar",
           "name": "Elytra Physics",
           "type": "FabricMod",
@@ -570,20 +430,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "me.ImJoshh:elytra_physics:2.0@jar",
-          "name": "Elytra Physics",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 435255,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/elytra_physics-fabric-2.0.jar",
-            "MD5": "43296b2ff2113dcb8aa94bf62f99e59b"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -660,20 +506,6 @@
           }
         },
         {
-          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.3+mc1.20.1@jar",
-          "name": "FabricSkyBoxes",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 207272,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/fabricskyboxes-0.7.3+mc1.20.1.jar",
-            "MD5": "a3e21b6bb94f98d3b5d29c77d1ad703a"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "io.github.ultimateboomer.nofade:fadeless:1.0.1@jar",
           "name": "Fadeless",
           "type": "FabricMod",
@@ -697,20 +529,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.4@jar",
-          "name": "Falling Leaves",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 153985,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/fallingleaves-1.15.4+1.20.1.jar",
-            "MD5": "c444460976f53149c92c04c5c8d8b237"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -766,20 +584,6 @@
           }
         },
         {
-          "id": "com.mineblock11.foglooksgoodnow:fog-looks-good-now:2.2.0+1.20.1@jar",
-          "name": "FogLooksGoodNow",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1268049,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/FogLooksGoodNow-2.2.0+1.20.1.jar",
-            "MD5": "cc18ab92a64173101e6f6d37d3de2b3c"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
           "name": "Forge Config API Port",
           "type": "FabricMod",
@@ -797,20 +601,6 @@
             "size": 49495,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/fsb-interop-1.3.6+mc1.20.1-build.50.jar",
             "MD5": "87fa8fe095bad30e9ca15ceb660b5e45"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fsb-interop:1.3.6+mc1.20.1-build.50@jar",
-          "name": "FabricSkyBoxes Interop",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 49495,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/fsb-interop-1.3.6+mc1.20.1-build.50.jar",
-            "MD5": "87fa8fe095bad30e9ca15ceb660b5e45"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -883,20 +673,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "dev.lambdaurora:lambdynlights:2.3.2+1.20.1@jar",
-          "name": "LambDynamicLights",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 573183,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/lambdynamiclights-2.3.2+1.20.1.jar",
-            "MD5": "9e931a5331bfe8cee677a413b8aea776"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -1040,20 +816,6 @@
           }
         },
         {
-          "id": "com.mineblock11.mru.entry:mru:0.4.0+1.20@jar",
-          "name": "Mineblock's Repeated Utilities",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 171539,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/mru-0.4.0+1.20.jar",
-            "MD5": "ead19b9cb0bea5e23ff05ea2e5340286"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "dev.tr7zw:notenoughanimations:1.7.1@jar",
           "name": "NotEnoughAnimations",
           "type": "FabricMod",
@@ -1064,20 +826,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "dev.tr7zw:notenoughanimations:1.7.1@jar",
-          "name": "NotEnoughAnimations",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 415129,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/notenoughanimations-fabric-1.7.1-mc1.20.1.jar",
-            "MD5": "0e4207d7447a9335a2ac9c56a9a375e8"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -1114,20 +862,6 @@
           }
         },
         {
-          "id": "su.plo.voice:plasmovoice:2.0.8@jar",
-          "name": "Plasmo Voice",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 11541828,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/plasmovoice-fabric-1.20.1-2.0.8.jar",
-            "MD5": "cf09f2374f71b2111d027e325801d1ca"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "su.plo.voice.soundphysics:pv-addon-soundphysics:1.0.1@jar",
           "name": "Pv-addon-soundphysics",
           "type": "FabricMod",
@@ -1138,20 +872,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "su.plo.voice.soundphysics:pv-addon-soundphysics:1.0.1@jar",
-          "name": "Pv-addon-soundphysics",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 10686,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/pv-addon-soundphysics-1.0.1.jar",
-            "MD5": "f4057fa2e49c7e71b983b18584b7b39a"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -1204,20 +924,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:shouldersurfing:Fabric-1.20.1-2.8.1@jar",
-          "name": "ShoulderSurfing",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 152429,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/ShoulderSurfing-Fabric-1.20.1-2.8.1.jar",
-            "MD5": "55d226ad4ee7c80d5d601470be52b80a"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
           "name": "Shulker Box Tooltip",
           "type": "FabricMod",
@@ -1228,20 +934,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
-          "name": "Shulker Box Tooltip",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1215693,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/shulkerboxtooltip-fabric-4.0.4+1.20.1.jar",
-            "MD5": "f3dbda55b10626725456665abd633e93"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -1258,20 +950,6 @@
           }
         },
         {
-          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.2@jar",
-          "name": "3d-Skin-Layers",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 466157,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/skinlayers3d-fabric-1.6.2-mc1.20.1.jar",
-            "MD5": "469dc10b80dfb9675c0fa64d5f8b54d7"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "generated.fabricmod:smoothscrollingrefurbished:1.1.2@jar",
           "name": "Smooth Scrolling Refurbished",
           "type": "FabricMod",
@@ -1282,20 +960,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "generated.fabricmod:smoothscrollingrefurbished:1.1.2@jar",
-          "name": "Smooth Scrolling Refurbished",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 10563,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/SmoothScrollingRefurbished+1.20-1.1.2.jar",
-            "MD5": "ed8de4a56563ef3ac6dde9c6961ab7b3"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -1342,34 +1006,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.3.1@jar",
-          "name": "Sound Physics Remastered",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 174029,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/sound-physics-remastered-fabric-1.20.1-1.3.1.jar",
-            "MD5": "51f6a439bc87456942b313a04f2e0597"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "dev.imb11:sounds:0.5.0+1.20.1@jar",
-          "name": "Sounds",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 6139271,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/Sounds-0.5.0+1.20.1.jar",
-            "MD5": "26e258cb1af1404933f8f25510192e80"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -1448,20 +1084,6 @@
           }
         },
         {
-          "id": "visuality:visuality:0.7.1+1.20@jar",
-          "name": "Visuality",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 67302,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/visuality-0.7.1+1.20.jar",
-            "MD5": "14aaa65078fcff3af29fef4e1d7d2161"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "com.ishland:vmp:0.2.0+beta.7.102@jar",
           "name": "Very Many Players",
           "type": "FabricMod",
@@ -1485,20 +1107,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "dev.tr7zw:waveycapes:1.3.2@jar",
-          "name": "WaveyCapes",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 327820,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionaloff/waveycapes-fabric-1.4.0-mc1.20.jar",
-            "MD5": "b7b601210236b5c3834963198a5ce6be"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
