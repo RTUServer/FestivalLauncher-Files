@@ -1027,9 +1027,9 @@
           "name": "Sounds",
           "type": "FabricMod",
           "artifact": {
-            "size": 1560714,
+            "size": 1564810,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Sounds-0.6.0+1.20.1.jar",
-            "MD5": "7a4933b5412fa0611838044ced71bf19"
+            "MD5": "50709e051bf3488fede3df61e69ff4f6"
           },
           "required": {
             "value": false
