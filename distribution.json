@@ -3,8 +3,8 @@
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "813010872062443530",
-    "smallImageText": "페스티벌 서버",
-    "smallImageKey": "server-icon"
+    "smallImageText": "Minecraft 1.20.1",
+    "smallImageKey": "minecraft-icon"
   },
   "servers": [
     {
@@ -16,8 +16,8 @@
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "festival-1.20.1",
-        "largeImageText": "페스티벌 서버 (1.20.1)",
+        "shortId": "Festival 1.20.1",
+        "largeImageText": "페스티벌 서버",
         "largeImageKey": "server-icon"
       },
       "mainServer": true,
