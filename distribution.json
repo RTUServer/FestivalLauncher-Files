@@ -1,10 +1,10 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "813010872062443530",
-    "smallImageText": "Minecraft 1.20.4",
-    "smallImageKey": "minecraft-icon"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
@@ -12,13 +12,13 @@
       "name": "페스티벌",
       "description": "크리에이터의 화려한 놀이터! (1.20.4)",
       "icon": "https://github.com/RTUServer/FestivalLauncher-Files/raw/main/server-icon.png",
-      "version": "1.1.0",
+      "version": "1.0.0",
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
-        "shortId": "Festival 1.20.4",
-        "largeImageText": "페스티벌 서버",
-        "largeImageKey": "server-icon"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
       "autoconnect": true,
@@ -1397,9 +1397,9 @@
           "name": "Photon.zip",
           "type": "File",
           "artifact": {
-            "size": 1550005,
+            "size": 1569496,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/Photon.zip",
-            "MD5": "b913980cc0c197f598b4c58f0db29b83",
+            "MD5": "81b59f66817447f3fcd9e9febd4369ea",
             "path": "config/defaultoptions/extra/shaderpacks/Photon.zip"
           }
         },
@@ -1430,9 +1430,9 @@
           "name": "keybindings.txt",
           "type": "File",
           "artifact": {
-            "size": 3284,
+            "size": 3795,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/keybindings.txt",
-            "MD5": "28ee9163c8ee931beb1944c15ae94c82",
+            "MD5": "adaea581b79cd43ca67f46304fde900d",
             "path": "config/defaultoptions/keybindings.txt"
           }
         },
@@ -1441,9 +1441,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2488,
+            "size": 2478,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/options.txt",
-            "MD5": "3d91c180b2c0c9f105c0d211d239c5da",
+            "MD5": "66fa43d66b26db97db680f70a3223eac",
             "path": "config/defaultoptions/options.txt"
           }
         },
@@ -1452,54 +1452,10 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 8923,
+            "size": 9046,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/servers.dat",
-            "MD5": "17a67c9c5a6c598e49a33e2e492256f0",
+            "MD5": "588e9a915ea8e8300c3eda4c119e9be1",
             "path": "config/defaultoptions/servers.dat"
-          }
-        },
-        {
-          "id": "Chocapic13_V9_Low.zip",
-          "name": "Chocapic13_V9_Low.zip",
-          "type": "File",
-          "artifact": {
-            "size": 2421404,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Chocapic13_V9_Low.zip",
-            "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
-            "path": "shaderpacks/Chocapic13_V9_Low.zip"
-          }
-        },
-        {
-          "id": "Photon.zip",
-          "name": "Photon.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1550005,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Photon.zip",
-            "MD5": "b913980cc0c197f598b4c58f0db29b83",
-            "path": "shaderpacks/Photon.zip"
-          }
-        },
-        {
-          "id": "RTUShader-v4.2.zip",
-          "name": "RTUShader-v4.2.zip",
-          "type": "File",
-          "artifact": {
-            "size": 932571,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/RTUShader-v4.2.zip",
-            "MD5": "bf170c5db6106c4b12b10fe1b8b92b26",
-            "path": "shaderpacks/RTUShader-v4.2.zip"
-          }
-        },
-        {
-          "id": "SEUS-Renewed-Low.zip",
-          "name": "SEUS-Renewed-Low.zip",
-          "type": "File",
-          "artifact": {
-            "size": 7069209,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/SEUS-Renewed-Low.zip",
-            "MD5": "6f4ad9a30baeb808119bb3d586e79799",
-            "path": "shaderpacks/SEUS-Renewed-Low.zip"
           }
         },
         {
