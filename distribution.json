@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "813010872062443530",
@@ -12,7 +12,7 @@
       "name": "페스티벌",
       "description": "크리에이터의 화려한 놀이터! (1.20.4)",
       "icon": "https://github.com/RTUServer/FestivalLauncher-Files/raw/main/server-icon.png",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
