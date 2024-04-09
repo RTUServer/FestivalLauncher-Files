@@ -371,9 +371,9 @@
           "name": "Default Options",
           "type": "FabricMod",
           "artifact": {
-            "size": 87094,
+            "size": 88116,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/defaultoptions-fabric-1.20.4-20.0.1.jar",
-            "MD5": "f8d3ecee8ad79440e54964a0770302da"
+            "MD5": "285dbc771fef5a795eddf5df7aad23f5"
           }
         },
         {
