@@ -3,20 +3,20 @@
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "813010872062443530",
-    "smallImageText": "Minecraft 1.20.1",
+    "smallImageText": "Minecraft 1.20.4",
     "smallImageKey": "minecraft-icon"
   },
   "servers": [
     {
-      "id": "festival-1.20.1",
+      "id": "festival-1.20.4",
       "name": "페스티벌",
-      "description": "크리에이터의 화려한 놀이터! (1.20.1)",
+      "description": "크리에이터의 화려한 놀이터! (1.20.4)",
       "icon": "https://github.com/RTUServer/FestivalLauncher-Files/raw/main/server-icon.png",
       "version": "1.0.0",
       "address": "play.rtuserver.kr",
-      "minecraftVersion": "1.20.1",
+      "minecraftVersion": "1.20.4",
       "discord": {
-        "shortId": "Festival 1.20.1",
+        "shortId": "Festival 1.20.4",
         "largeImageText": "페스티벌 서버",
         "largeImageKey": "server-icon"
       },
@@ -34,13 +34,13 @@
           },
           "subModules": [
             {
-              "id": "1.20.1-fabric-0.15.7",
+              "id": "1.20.4-fabric-0.15.7",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "0ee5754183a29177a8faaaeb2bc3d4e0",
-                "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/repo/versions/1.20.1-fabric-0.15.7/1.20.1-fabric-0.15.7.json"
+                "MD5": "05b9315802cdbf6ff13f40258f070769",
+                "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/repo/versions/1.20.4-fabric-0.15.7/1.20.4-fabric-0.15.7.json"
               }
             },
             {
@@ -104,25 +104,38 @@
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.20.1",
+              "id": "net.fabricmc:intermediary:1.20.4",
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 573365,
-                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
               }
             }
           ]
         },
         {
-          "id": "io.github.foundationgames:animatica:0.6+1.20@jar",
-          "name": "Animatica",
+          "id": "dev.architectury.utils:architectury:11.1.17@jar",
+          "name": "Architectury",
           "type": "FabricMod",
           "artifact": {
-            "size": 69810,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/animatica-0.6+1.20.jar",
-            "MD5": "d57ba4c6253e84af7ce10719ee1e7a8a"
+            "size": 587429,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/architectury-11.1.17-fabric.jar",
+            "MD5": "666d154657c8c2241377720d679dc6de"
+          }
+        },
+        {
+          "id": "generated.fabricmod:async-pack-scan:0.2.3@jar",
+          "name": "Async Pack Scan",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 110559,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/async-pack-scan-0.2.3.jar",
+            "MD5": "880da8906769168c926848871ff5e787"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -130,45 +143,45 @@
           "name": "BadOptimizations",
           "type": "FabricMod",
           "artifact": {
-            "size": 425066,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/BadOptimizations-2.1.0.jar",
-            "MD5": "5573ab5b235b4b1609fb36e30d535917"
+            "size": 424479,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/BadOptimizations-2.1.0.jar",
+            "MD5": "105fe7315d74eb13f2d2332e6c670b3d"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.blay09.mods.balm:balm-fabric:7.2.1@jar",
+          "id": "net.blay09.mods.balm:balm-fabric:9.0.6@jar",
           "name": "Balm",
           "type": "FabricMod",
           "artifact": {
-            "size": 381115,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/balm-fabric-1.20.1-7.2.1.jar",
-            "MD5": "40bf8265453a6d0c6114bdbb482ab336"
+            "size": 395874,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/balm-fabric-1.20.4-9.0.6.jar",
+            "MD5": "93bc966b65255a20cb557084fff74619"
           }
         },
         {
-          "id": "me.kirillirik:bedrodium:0.2.2@jar",
+          "id": "me.kirillirik:bedrodium:0.2.3@jar",
           "name": "Bedrodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 26591,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/bedrodium-0.2.2.jar",
-            "MD5": "d42dae5562305bac6575cd17fba22c17"
+            "size": 30660,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/bedrodium-0.2.3.jar",
+            "MD5": "7eb67152c26d856c9ff0e2a6dd232fc4"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.cominixo:betterf3:7.0.2@jar",
+          "id": "me.cominixo:betterf3:9.0.2@jar",
           "name": "BetterF3",
           "type": "FabricMod",
           "artifact": {
-            "size": 1782676,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/BetterF3-7.0.2-Fabric-1.20.1.jar",
-            "MD5": "acda45b22c255f78f3242056b1221c8e"
+            "size": 1776259,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/BetterF3-9.0.2-Fabric-1.20.4.jar",
+            "MD5": "24fa26b55c158717323b0cb1abe58232"
           },
           "required": {
             "value": false
@@ -180,7 +193,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 21587,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/bettermounthud-1.2.2.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/bettermounthud-1.2.2.jar",
             "MD5": "fdd255bd204f7d84850fd31ba687ad01"
           },
           "required": {
@@ -188,13 +201,13 @@
           }
         },
         {
-          "id": "io.github.thecsdev:betterstats:3.9.2+fabric-1.20.1@jar",
+          "id": "io.github.thecsdev:betterstats:3.9.4+fabric-1.20.4@jar",
           "name": "Better Statistics Screen",
           "type": "FabricMod",
           "artifact": {
-            "size": 1058630,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/betterstats-3.9.2+fabric-1.20.1.jar",
-            "MD5": "480b4d864ebe75efc713bb153fc09eb9"
+            "size": 1065674,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/betterstats-3.9.4+fabric-1.20.4.jar",
+            "MD5": "9acbaea4e68407bc5f6ab4710e9fb761"
           },
           "required": {
             "value": false
@@ -206,7 +219,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 55504,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
             "MD5": "abefae2dbfc50b8b180908e3c8933bb3"
           },
           "required": {
@@ -214,78 +227,52 @@
           }
         },
         {
-          "id": "com.biomemusic:biomemusic:1.20.1-2.3@jar",
-          "name": "Biome Music Mod",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 21174,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/biomemusic-fabric-1.20.1-2.3.jar",
-            "MD5": "f9c794f28fe3063b6dc7c155435cc260"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.tterrag:blur:3.1.0@jar",
+          "id": "com.tterrag:blur:3.2.0@jar",
           "name": "Blur (Fabric)",
           "type": "FabricMod",
           "artifact": {
-            "size": 164085,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/blur-3.1.0.jar",
-            "MD5": "5c2350374a817c510596dc2e96d5a20a"
+            "size": 155092,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/blur-3.2.0.jar",
+            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "de.johni0702.minecraft:bobby:5.0.1@jar",
+          "id": "de.johni0702.minecraft:bobby:5.1.0+mc1.20.4@jar",
           "name": "Bobby",
           "type": "FabricMod",
           "artifact": {
-            "size": 799098,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/bobby-5.0.1.jar",
-            "MD5": "2aa8b606f9372c9a17f66ed5111d5b0e"
+            "size": 853323,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/bobby-5.1.0+mc1.20.4%20(1).jar",
+            "MD5": "86ecab27bfbf06d82788e152e4bff7ec"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:borderlessmining:1.1.8+1.20.1@jar",
-          "name": "Borderless Mining",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 118295,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/borderless-mining-1.1.8+1.20.1.jar",
-            "MD5": "e35125dd22a96775fea86c1acef59a9a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.ishland:c2me:0.2.0+alpha.11.5@jar",
+          "id": "com.ishland:c2me:0.2.0+alpha.11.58@jar",
           "name": "Concurrent Chunk Management Engine",
           "type": "FabricMod",
           "artifact": {
-            "size": 1301166,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar",
-            "MD5": "371f6ddf7ab12a1b83c5cf4e9816626d"
+            "size": 1282900,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/c2me-fabric-mc1.20.4-0.2.0+alpha.11.58.jar",
+            "MD5": "11292e26e4933772448170056a1c3b8c"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.cael:capes:1.5.2+1.20@jar",
+          "id": "me.cael:capes:1.5.3+1.20.2@jar",
           "name": "Capes",
           "type": "FabricMod",
           "artifact": {
-            "size": 170082,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/capes-1.5.2+1.20-fabric.jar",
-            "MD5": "312590823dd12dc676f8908be2e8396d"
+            "size": 209297,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/capes-1.5.3+1.20.2-fabric.jar",
+            "MD5": "4d728caea98bbc803c3631b4d8c1e772"
           },
           "required": {
             "value": false
@@ -296,9 +283,12 @@
           "name": "CaramelChat",
           "type": "FabricMod",
           "artifact": {
-            "size": 130062,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.1.1.jar",
-            "MD5": "7a52a4adae1c669ae869b53dd49ab615"
+            "size": 127984,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/caramelChat-mc1.20.4-fabric-1.1.1.jar",
+            "MD5": "ce211fbef99feb36a042efd65ac28876"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -306,9 +296,9 @@
           "name": "Cave Dust",
           "type": "FabricMod",
           "artifact": {
-            "size": 239387,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/cave_dust-1.4.1.jar",
-            "MD5": "2aa52eb33b4c3da644b5a77776d6ebf7"
+            "size": 241428,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/cave_dust-1.4.1.jar",
+            "MD5": "5fb1ecc7f731ac5606f289a2dfd6f99f"
           },
           "required": {
             "value": false
@@ -320,7 +310,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 16345637,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/chatanimation-1.0.5.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/chatanimation-1.0.5.jar",
             "MD5": "352e79d9617ed4adda0d3ba12936fef0"
           },
           "required": {
@@ -328,128 +318,114 @@
           }
         },
         {
-          "id": "shcm.shsupercm:citresewn:1.1.3.2+1.20@jar",
-          "name": "CIT Resewn JSONLagPatch",
+          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
+          "name": "Cloth Config v13",
           "type": "FabricMod",
           "artifact": {
-            "size": 395028,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/CITResewnJSONLagPatch-1.1.3.2+1.20.jar",
-            "MD5": "15965030aa12a60e82ae52ab638ceed0"
+            "size": 1142084,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
+            "MD5": "3903e7d3c9957bacedae1365ba856202"
           }
         },
         {
-          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.118@jar",
-          "name": "Cloth Config v11",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1159192,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/cloth-config-11.1.118-fabric.jar",
-            "MD5": "eb13a834db10ee7e8c5e6a6d4b037fbd"
-          }
-        },
-        {
-          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.1@jar",
+          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.2@jar",
           "name": "Continuity",
           "type": "FabricMod",
           "artifact": {
-            "size": 1050571,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/continuity-3.0.0-beta.4+1.20.1.jar",
-            "MD5": "847fd4abc379058a701ea16a52e22dcb"
-          }
-        },
-        {
-          "id": "dev.isxander.culllessleaves:cull-less-leaves:1.3.0@jar",
-          "name": "Cull Less Leaves",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 114211,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/CullLessLeaves-1.3.0.jar",
-            "MD5": "445980b510aef13fa7b7b2dd86dd2c73"
+            "size": 1050675,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/continuity-3.0.0-beta.4+1.20.2.jar",
+            "MD5": "b348965933103bb02f9731c6bca76398"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.cupboard:cupboard:1.20.1-2.3@jar",
-          "name": "Cupboard",
+          "id": "generated.fabricmod:cubes-without-borders:1.1.0+1.20@jar",
+          "name": "Cubes Without Borders",
           "type": "FabricMod",
           "artifact": {
-            "size": 21767,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/cupboard-fabric-1.20.1-2.3.jar",
-            "MD5": "55a98ac058841a8e819a69fef23a6e8c"
+            "size": 39258,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/cubes-without-borders-1.1.0+1.20.jar",
+            "MD5": "fb140801d1f7085f4e758df6d28bc957"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:dashloader:5.0.0-beta.2+1.20.0@jar",
-          "name": "DashLoader",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 5819388,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/dashloader-5.0.0-beta.2+1.20.0.jar",
-            "MD5": "eaedf409bbe209474c5b75283d58c020"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "dev.isxander:debugify:1.20.1+2.0@jar",
+          "id": "generated.fabricmod:debugify:1.20.4+1.0@jar",
           "name": "Debugify",
           "type": "FabricMod",
           "artifact": {
-            "size": 337545,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Debugify-1.20.1+2.0.jar",
-            "MD5": "39e6ead07cd3ce225fb24775e0cb0341"
+            "size": 270298,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/Debugify-1.20.4+1.0.jar",
+            "MD5": "1f3e2129edb3f146d502266e2bb79341"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.blay09.mods:defaultoptions:18.0.1@jar",
+          "id": "net.blay09.mods:defaultoptions:20.0.1@jar",
           "name": "Default Options",
           "type": "FabricMod",
           "artifact": {
-            "size": 87707,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/defaultoptions-fabric-1.20-18.0.1.jar",
-            "MD5": "26c54b2cf1ea94737d9e1878859d9697"
+            "size": 87094,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/defaultoptions-fabric-1.20.4-20.0.1.jar",
+            "MD5": "f8d3ecee8ad79440e54964a0770302da"
           }
         },
         {
-          "id": "me.ImJoshh:elytra_physics:2.0@jar",
-          "name": "Elytra Physics",
+          "id": "me.pieking1215:waterdripsound:1.19-0.3.2@jar",
+          "name": "Drip Sounds",
           "type": "FabricMod",
           "artifact": {
-            "size": 435255,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/elytra_physics-fabric-2.0.jar",
-            "MD5": "43296b2ff2113dcb8aa94bf62f99e59b"
+            "size": 84945,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/DripSounds-1.19.4-0.3.2.jar",
+            "MD5": "dde92c669ac6e13fd46ee22a60103676"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9+1.20@jar",
-          "name": "Enhanced Block Entities",
+          "id": "net.krlite:edgelesschatscreen:1.0.2@jar",
+          "name": "Edgeless Chat Screen",
           "type": "FabricMod",
           "artifact": {
-            "size": 490690,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/enhancedblockentities-0.9+1.20.jar",
-            "MD5": "bfc7a62a2834f824bb426b73f383e0cb"
+            "size": 18455,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/edgelesschatscreen-1.20-1.0.2.jar",
+            "MD5": "95319be8be98702470b0a310cfcaace7"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "traben.entity_model_features:entity_model_features:1.2.3@jar",
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9.1+1.20.2@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 492605,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/enhancedblockentities-0.9.1+1.20.2.jar",
+            "MD5": "f9dd36184ab2a4ea180de78c9eeae889"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:1.3@jar",
           "name": "Entity Model Features",
           "type": "FabricMod",
           "artifact": {
-            "size": 301097,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-1.2.3.jar",
-            "MD5": "580e479b5c83bb22c7157b9380e20fb4"
+            "size": 347117,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/entity_model_features_fabric_1.20.4-1.3.jar",
+            "MD5": "30b300e663d4b942b21efaef0eb4f6fd"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -457,52 +433,71 @@
           "name": "Entity Texture Features",
           "type": "FabricMod",
           "artifact": {
-            "size": 438794,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-5.2.3.jar",
-            "MD5": "b3a2766c1d770c89295e9c40e293e59f"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.6.2-mc1.20.1@jar",
-          "name": "EntityCulling-Fabric",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 59348,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/entityculling-fabric-1.6.2-mc1.20.1.jar",
-            "MD5": "29b1642d4e958fd88822e55410f70dfd"
+            "size": 449202,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/entity_texture_features_fabric_1.20.4-5.2.3.jar",
+            "MD5": "e1cf1150b93b238737a73492db69962e"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.92.0+1.20.1@jar",
+          "id": "dev.tr7zw:entityculling:1.6.3.1@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 59359,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/entityculling-fabric-1.6.3.1-mc1.20.4.jar",
+            "MD5": "2c7a04a0e218b9a37c27ebfdf03ebf6e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:experimentalperformance:0.1.1@jar",
+          "name": "ExperimentalPerformance",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 682457,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/experimentalPerformance-0.1.1.jar",
+            "MD5": "6e76643aff80854af44a666096b3884a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.96.11+1.20.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2105690,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/fabric-api-0.92.0+1.20.1.jar",
-            "MD5": "8e5c0f1758e2020338312a223c989c01"
+            "size": 2160959,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/fabric-api-0.96.11+1.20.4.jar",
+            "MD5": "43fe492304dbd663fb3148d4f5c4a024"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-language-kotlin:1.10.17+kotlin.1.9.22@jar",
+          "id": "generated.fabricmod:fabric-language-kotlin:1.10.19+kotlin.1.9.23@jar",
           "name": "Fabric Language Kotlin",
           "type": "FabricMod",
           "artifact": {
-            "size": 6732012,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/fabric-language-kotlin-1.10.17+kotlin.1.9.22.jar",
-            "MD5": "2476cb3269c5ff2876a1ebb546fc4289"
+            "size": 6734779,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/fabric-language-kotlin-1.10.19+kotlin.1.9.23.jar",
+            "MD5": "aa6ae207640288876f5b8551f5e33459"
           }
         },
         {
-          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.3+mc1.20.1@jar",
+          "id": "io.github.amerebagatelle:fabricskyboxes:0.7.3+mc1.20.2@jar",
           "name": "FabricSkyBoxes",
           "type": "FabricMod",
           "artifact": {
-            "size": 207272,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/fabricskyboxes-0.7.3+mc1.20.1.jar",
-            "MD5": "a3e21b6bb94f98d3b5d29c77d1ad703a"
+            "size": 207267,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/fabricskyboxes-0.7.3+mc1.20.2.jar",
+            "MD5": "dc3e7903dd9fc8222b2866d9e220e369"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -511,7 +506,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7876,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/fadeless-1.0.1.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/fadeless-1.0.1.jar",
             "MD5": "1b17811bcc7052b8fc38a4c44bcf74a9"
           },
           "required": {
@@ -524,7 +519,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 153985,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/fallingleaves-1.15.4+1.20.1.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/fallingleaves-1.15.4+1.20.1.jar",
             "MD5": "c444460976f53149c92c04c5c8d8b237"
           },
           "required": {
@@ -532,85 +527,88 @@
           }
         },
         {
-          "id": "io.github.bumblesoftware.fastload.init:fastload:3.4.0@jar",
-          "name": "Fast Load",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 567412,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Fastload+1.18.2-1.20-3.4.0.jar",
-            "MD5": "094d9296ec2c575711b3c253548d77d8"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.kingcontaria:fastquit:3.0.0+1.20+@jar",
+          "id": "com.kingcontaria:fastquit:3.0.0+1.20.4@jar",
           "name": "FastQuit",
           "type": "FabricMod",
           "artifact": {
-            "size": 79306,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/fastquit-3.0.0+1.20+.jar",
-            "MD5": "a1b2847e248207157f5bbe7285b41927"
+            "size": 59105,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/fastquit-3.0.0+1.20.4.jar",
+            "MD5": "5a97735d1d3bdd5e6d1575d81a6081e0"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
           "name": "FerriteCore",
           "type": "FabricMod",
           "artifact": {
-            "size": 125197,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/ferritecore-6.0.1-fabric.jar",
-            "MD5": "a19272e427f75fea59127de6610ea26b"
+            "size": 125100,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/ferritecore-6.0.3-fabric.jar",
+            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.mineblock11.foglooksgoodnow:fog-looks-good-now:2.2.0+1.20.1@jar",
+          "id": "com.mineblock11.foglooksgoodnow:fog-looks-good-now:2.2.0+1.20.4@jar",
           "name": "FogLooksGoodNow",
           "type": "FabricMod",
           "artifact": {
-            "size": 1268049,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/FogLooksGoodNow-2.2.0+1.20.1.jar",
-            "MD5": "cc18ab92a64173101e6f6d37d3de2b3c"
+            "size": 1279991,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/FogLooksGoodNow-2.2.0+1.20.4.jar",
+            "MD5": "83a44a530a47e5645bba01f14bbd526f"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "id": "generated.fabricmod:forcecloseworldloadingscreen:2.2.1@jar",
+          "name": "Kennytv's epic force close loading screen mod for Fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 112392,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/forcecloseloadingscreen-2.2.1.jar",
+            "MD5": "cce74b8f248f9bd55cfa000cddfa858f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:20.4.3@jar",
           "name": "Forge Config API Port",
           "type": "FabricMod",
           "artifact": {
-            "size": 397198,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
-            "MD5": "9b680a583230400e887dc545aa974936"
+            "size": 444627,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+            "MD5": "61c622d98e5938c377a45ad513b6de13"
           }
         },
         {
-          "id": "generated.fabricmod:fsb-interop:1.3.6+mc1.20.1-build.50@jar",
+          "id": "bre2el.fpsreducer:fpsreducer:1.20.4-2.7@jar",
+          "name": "FPS Reducer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 131585,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/FpsReducer2-fabric-1.20.4-2.7.jar",
+            "MD5": "1ccbccd3c6063240b6c6357f2cf4e1d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:fsb-interop:1.3.6+mc1.20.2-build.52@jar",
           "name": "FabricSkyBoxes Interop",
           "type": "FabricMod",
           "artifact": {
-            "size": 49495,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/fsb-interop-1.3.6+mc1.20.1-build.50.jar",
-            "MD5": "87fa8fe095bad30e9ca15ceb660b5e45"
-          }
-        },
-        {
-          "id": "generated.fabricmod:immediatelyfast:1.2.10+1.20.4@jar",
-          "name": "ImmediatelyFast",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 222051,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/ImmediatelyFast-Fabric-1.2.10+1.20.4.jar",
-            "MD5": "735c9b0e638b30053f331a2809d132e0"
+            "size": 49488,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/fsb-interop-1.3.6+mc1.20.2-build.52.jar",
+            "MD5": "9f749b8461924adaf73650aeae147808"
           },
           "required": {
             "value": false
@@ -622,80 +620,112 @@
           "type": "FabricMod",
           "artifact": {
             "size": 104805,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/indium-1.0.30+mc1.20.4.jar",
             "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "me.pieking1215:invmove:0.8.4@jar",
+          "id": "dev.plasticstraw.inf_music:infinite-music:0.3.1@jar",
+          "name": "Infinite Music",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 40198,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/infinite-music-0.3.1.jar",
+            "MD5": "7eb310cc2470e5445173150bbf4329d1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.8.5@jar",
           "name": "InvMove",
           "type": "FabricMod",
           "artifact": {
-            "size": 124710,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/InvMove-1.20-0.8.4-Fabric.jar",
-            "MD5": "afaa392904685061c677cd386565b057"
+            "size": 127753,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/InvMove-1.20-0.8.5-Fabric.jar",
+            "MD5": "32ec68b4299d7dbec77205b5bd386052"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.6.17@jar",
+          "id": "generated.fabricmod:iris:1.7.0-snapshot+mc1.20.4-7fcec4d@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2421552,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/iris-mc1.20.1-1.6.17.jar",
-            "MD5": "e268a58aab4200ce5fe68d298cd667f6"
+            "size": 2685429,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/iris-1.7.0-snapshotmc1.20.4-7fcec4d.jar",
+            "MD5": "21e72ed1f4a1e9d588f1c245c69aac95"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.6@jar",
           "name": "Krypton",
           "type": "FabricMod",
           "artifact": {
-            "size": 185895,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/krypton-0.2.3.jar",
-            "MD5": "3bf353c1ab576b57c003109c079e2ec8"
+            "size": 167163,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/krypton-0.2.6.jar",
+            "MD5": "eaffbefc9a3dd361299c09eda8826c35"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "dev.lambdaurora:lambdynlights:2.3.2+1.20.1@jar",
+          "id": "ru.vidtu:ksyxis:1.2.2@jar",
+          "name": "Ksyxis",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16552,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/Ksyxis-1.2.2.jar",
+            "MD5": "0a024833bc17e2036e186f55a8b9c0c8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
           "name": "LambDynamicLights",
           "type": "FabricMod",
           "artifact": {
-            "size": 573183,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/lambdynamiclights-2.3.2+1.20.1.jar",
-            "MD5": "9e931a5331bfe8cee677a413b8aea776"
+            "size": 568669,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/lambdynamiclights-2.3.4+1.20.4.jar",
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:languagereload:1.5.10+1.20.1@jar",
+          "id": "generated.fabricmod:languagereload:1.5.10+1.20.3@jar",
           "name": "Language Reload",
           "type": "FabricMod",
           "artifact": {
-            "size": 197978,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/language-reload-1.5.10+1.20.1.jar",
-            "MD5": "e2a331f292dcf9c1efcf1b6050c9164d"
+            "size": 200750,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/language-reload-1.5.10+1.20.3.jar",
+            "MD5": "fce9c13a98f7cacdad7710e51ca75b20"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "dev.chachy.lazylanguageloader:lazy-language-loader:0.3.3@jar",
+          "id": "dev.chachy.lazylanguageloader:lazy-language-loader:0.3.5@jar",
           "name": "Lazy-language-loader",
           "type": "FabricMod",
           "artifact": {
-            "size": 26621,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/lazy-language-loader-0.3.3.jar",
-            "MD5": "142e2fbfa25b5b8321ad230f4f21f113"
+            "size": 25020,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/lazy-language-loader-0.3.5.jar",
+            "MD5": "13b62b06a28edf4a652f738e54eb0e62"
           },
           "required": {
             "value": false
@@ -707,7 +737,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 14531,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/lazydfu-0.1.3.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/lazydfu-0.1.3.jar",
             "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
           },
           "required": {
@@ -715,26 +745,39 @@
           }
         },
         {
-          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
-          "name": "Lithium",
+          "id": "generated.fabricmod:libjf:3.14.3@jar",
+          "name": "LibJF",
           "type": "FabricMod",
           "artifact": {
-            "size": 645865,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/lithium-fabric-mc1.20.1-0.11.2.jar",
-            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+            "size": 1281702,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/libjf-3.14.3.jar",
+            "MD5": "becf8c57e24bb2274cf08c29437f0e83"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.lunade.fastanim:faster_entity_animations:1.6@jar",
-          "name": "FastAnim",
+          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
+          "name": "Lithium",
           "type": "FabricMod",
           "artifact": {
-            "size": 118384,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/lunade-fastanim-1.6-1.20.jar",
-            "MD5": "c405cb79fcb03b2762f9f14e5cb047e2"
+            "size": 716022,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/lithium-fabric-mc1.20.4-0.12.1.jar",
+            "MD5": "83da6729d5402dc42eca740a96f97346"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:make_bubbles_pop:0.2.0-fabric-mc1.19.4+@jar",
+          "name": "Make_bubbles_pop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18643,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/make_bubbles_pop-0.2.0-fabric-mc1.19.4+.jar",
+            "MD5": "03c3b1c78677e44127eafa695018c7e8"
           },
           "required": {
             "value": false
@@ -746,7 +789,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 65430,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/modelfix-1.14-fabric.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/modelfix-1.14-fabric.jar",
             "MD5": "37022aa425061707b0ed1ada2c071d97"
           },
           "required": {
@@ -754,26 +797,29 @@
           }
         },
         {
-          "id": "org.embeddedt:modernfix:5.14.0+mc1.20.1@jar",
+          "id": "org.embeddedt:modernfix:5.15.0+mc1.20.4@jar",
           "name": "ModernFix",
           "type": "FabricMod",
           "artifact": {
-            "size": 596742,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/modernfix-fabric-5.14.0+mc1.20.1.jar",
-            "MD5": "40bdf2ed0f99e889c3a060b2115e7a3b"
+            "size": 440683,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/modernfix-fabric-5.15.0+mc1.20.4.jar",
+            "MD5": "0e030ef451ef6c536bf3101e8f0b43b9"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "id": "com.terraformersmc:modmenu:9.0.0@jar",
           "name": "Mod Menu",
           "type": "FabricMod",
           "artifact": {
-            "size": 721366,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
-            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+            "size": 724484,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/modmenu-9.0.0.jar",
+            "MD5": "7eb06d459405ed6c87b16f4c5be4493d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -782,7 +828,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 269457,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/moreculling-1.20.4-0.22.1.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/moreculling-1.20.4-0.22.1.jar",
             "MD5": "7105c0ef569dd1c37d1b36b044351bea"
           },
           "required": {
@@ -795,7 +841,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 77342,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/MouseTweaks-fabric-mc1.20-2.25.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/MouseTweaks-fabric-mc1.20-2.25.jar",
             "MD5": "0badc7c6e8d687d1d75c47197e72953d"
           },
           "required": {
@@ -803,13 +849,13 @@
           }
         },
         {
-          "id": "com.mineblock11.mru.entry:mru:0.4.0+1.20@jar",
+          "id": "com.mineblock11.mru.entry:mru:0.4.0+1.20.4@jar",
           "name": "Mineblock's Repeated Utilities",
           "type": "FabricMod",
           "artifact": {
-            "size": 171539,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/mru-0.4.0+1.20.jar",
-            "MD5": "ead19b9cb0bea5e23ff05ea2e5340286"
+            "size": 171531,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/mru-0.4.0+1.20.4.jar",
+            "MD5": "004ea4055e452ec625efe5b30ac4477c"
           },
           "required": {
             "value": false
@@ -820,35 +866,90 @@
           "name": "NotEnoughAnimations",
           "type": "FabricMod",
           "artifact": {
-            "size": 415129,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/notenoughanimations-fabric-1.7.1-mc1.20.1.jar",
-            "MD5": "0e4207d7447a9335a2ac9c56a9a375e8"
+            "size": 415153,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/notenoughanimations-fabric-1.7.1-mc1.20.4.jar",
+            "MD5": "5739696ed8189673608f8864d7053035"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.noxcrew:noxesium:1.0.3+9b339b0@jar",
+          "id": "com.noxcrew:noxesium:1.2.0+669ccb7@jar",
           "name": "Noxesium",
           "type": "FabricMod",
           "artifact": {
-            "size": 135973,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/noxesium-1.0.3.jar",
-            "MD5": "76ef6fe73db0f1dd1b2d3968d7f9e156"
+            "size": 248135,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/noxesium-1.2.0.jar",
+            "MD5": "83e36cd4f30f55069df837c0c2b00287"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "opekope2.optigui:optigui:2.1.7@jar",
+          "id": "generated.fabricmod:nvidium:0.2.6-beta@jar",
+          "name": "Nvidium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 164283,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/nvidium-0.2.6-beta.jar",
+            "MD5": "6b5c5cac72b63ff8b2505a1691955f16"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "opekope2.optigui:optigui:2.3.0-alpha.2@jar",
           "name": "OptiGUI",
           "type": "FabricMod",
           "artifact": {
-            "size": 780572,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/optigui-2.1.7.jar",
-            "MD5": "2744ac9b3e4908c3cfcf4362d1437e0f"
+            "size": 613589,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/optigui-2.3.0-alpha.2.jar",
+            "MD5": "ad0a22fcfb548e182179e4fd506f2ebf"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:pamhc2foodcore:1.20-1.0.3@jar",
+          "name": "Pamhc2foodcore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 895980,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/pamhc2foodcore-1.20-1.0.3.jar",
+            "MD5": "cd369465c00405495c858278d8bf4504"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:particle_core:0.1.2+1.20@jar",
+          "name": "Particle Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 278345,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/particle_core-0.1.2+1.20.jar",
+            "MD5": "942db05c2268550e87d0cf5328cb3641"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "pigcart.particlerain:particlerain:2.0.8@jar",
+          "name": "Particle Rain",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 603307,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/particle-rain-2.0.8.jar",
+            "MD5": "b950dc0bb3802f98995f2a38fda04340"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -856,9 +957,9 @@
           "name": "Plasmo Voice",
           "type": "FabricMod",
           "artifact": {
-            "size": 11541828,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/plasmovoice-fabric-1.20.1-2.0.8.jar",
-            "MD5": "cf09f2374f71b2111d027e325801d1ca"
+            "size": 11542426,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/plasmovoice-fabric-1.20.3-2.0.8.jar",
+            "MD5": "8ffaa4c744401710a5e2de155d1e9992"
           }
         },
         {
@@ -867,7 +968,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 10686,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/pv-addon-soundphysics-1.0.1.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/pv-addon-soundphysics-1.0.1.jar",
             "MD5": "f4057fa2e49c7e71b983b18584b7b39a"
           },
           "required": {
@@ -875,26 +976,16 @@
           }
         },
         {
-          "id": "com.ishland:raknetify:0.1.0+alpha.5.114@jar",
-          "name": "Raknetify (Fabric)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 720869,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/raknetify-fabric-0.1.0+alpha.5.114-all.jar",
-            "MD5": "cc22382c5aea2d1452f0505002a7ed56"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.4-build.102@jar",
           "name": "Reese's Sodium Options",
           "type": "FabricMod",
           "artifact": {
-            "size": 77304,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
-            "MD5": "0db2ef332dd00de8c64e34f192317118"
+            "size": 77393,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/reeses_sodium_options-1.7.2+mc1.20.4-build.102.jar",
+            "MD5": "3353347619cc18acb9b6ef811ac6a310"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -903,7 +994,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7158,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/serverpingerfixer-1.0.4.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/serverpingerfixer-1.0.4.jar",
             "MD5": "9c94c8925a4535a6d28f8a38b05cd876"
           },
           "required": {
@@ -911,26 +1002,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:shouldersurfing:Fabric-1.20.1-2.8.1@jar",
+          "id": "generated.fabricmod:shouldersurfing:Fabric-1.20.4-2.9.6@jar",
           "name": "ShoulderSurfing",
           "type": "FabricMod",
           "artifact": {
-            "size": 152429,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/ShoulderSurfing-Fabric-1.20.1-2.8.1.jar",
-            "MD5": "55d226ad4ee7c80d5d601470be52b80a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
-          "name": "Shulker Box Tooltip",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1215693,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/shulkerboxtooltip-fabric-4.0.4+1.20.1.jar",
-            "MD5": "f3dbda55b10626725456665abd633e93"
+            "size": 107058,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/ShoulderSurfing-Fabric-1.20.4-2.9.6.jar",
+            "MD5": "75ece16b5d41dc31598ad7ede25f807c"
           },
           "required": {
             "value": false
@@ -941,9 +1019,22 @@
           "name": "3d-Skin-Layers",
           "type": "FabricMod",
           "artifact": {
-            "size": 466157,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/skinlayers3d-fabric-1.6.2-mc1.20.1.jar",
-            "MD5": "469dc10b80dfb9675c0fa64d5f8b54d7"
+            "size": 466054,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/skinlayers3d-fabric-1.6.2-mc1.20.4.jar",
+            "MD5": "5886fc2e58ac759d2f7c75981428884e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ezzenix.smoothgui:smoothgui:0.1.0@jar",
+          "name": "SmoothGui",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20051296,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/smoothgui-0.1.0.jar",
+            "MD5": "e943d303116d97075f69a0cdf5bcffdc"
           },
           "required": {
             "value": false
@@ -954,32 +1045,38 @@
           "name": "Smooth Scrolling Refurbished",
           "type": "FabricMod",
           "artifact": {
-            "size": 10563,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/SmoothScrollingRefurbished+1.20-1.1.2.jar",
-            "MD5": "ed8de4a56563ef3ac6dde9c6961ab7b3"
+            "size": 10543,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/SmoothScrollingRefurbished+1.20.4-1.1.2.jar",
+            "MD5": "ccadddec5ad7e537751380f8c7414e89"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.1-build.115@jar",
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
           "artifact": {
-            "size": 385539,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/sodium-extra-0.5.4+mc1.20.1-build.115.jar",
-            "MD5": "9eaed09a486eee9a1326de5dd80faa0a"
+            "size": 385665,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
+            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.1@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 942134,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/sodium-fabric-0.5.8+mc1.20.1.jar",
-            "MD5": "68e366d87fa5c614d64ce031ff548e30"
+            "size": 949085,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -988,7 +1085,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 54820,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/sodium-shadowy-path-blocks-3.2.1.jar",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/sodium-shadowy-path-blocks-3.2.1.jar",
             "MD5": "d44faf99174b32c9ec62f4feff73fda1"
           },
           "required": {
@@ -996,101 +1093,104 @@
           }
         },
         {
-          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.3.1@jar",
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.4-1.3.1@jar",
           "name": "Sound Physics Remastered",
           "type": "FabricMod",
           "artifact": {
-            "size": 174029,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.1-1.3.1.jar",
-            "MD5": "51f6a439bc87456942b313a04f2e0597"
+            "size": 174028,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.4-1.3.1.jar",
+            "MD5": "03ab978129ce5b86db134bbb0bb1aea0"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "dev.imb11:sounds:0.6.0+1.20.1@jar",
+          "id": "dev.imb11:sounds:0.6.0+1.20.4@jar",
           "name": "Sounds",
           "type": "FabricMod",
           "artifact": {
-            "size": 1564810,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Sounds-0.6.0+1.20.1.jar",
-            "MD5": "50709e051bf3488fede3df61e69ff4f6"
+            "size": 1579011,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/Sounds-0.6.0+1.20.4.jar",
+            "MD5": "ef9e1299e819c037f70d4ed472aadc1b"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "me.lucko:spark:1.10.53@jar",
+          "id": "me.lucko:spark:1.10.58@jar",
           "name": "Spark",
           "type": "FabricMod",
           "artifact": {
-            "size": 3082974,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/spark-1.10.53-fabric.jar",
-            "MD5": "d590c2c10bb832130029c37d1bdd6bf9"
+            "size": 3066467,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/spark-1.10.58-fabric.jar",
+            "MD5": "84d7acb6a2254e3004b3fcbb1e7e3fbe"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "generated.fabricmod:starlight:1.1.2+fabric.dbc156f@jar",
+          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
           "name": "Starlight",
           "type": "FabricMod",
           "artifact": {
-            "size": 127368,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/starlight-1.1.2+fabric.dbc156f.jar",
-            "MD5": "a0b391bf55891502c2074bd078bb5899"
+            "size": 126410,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/starlight-1.1.3+fabric.f5dcd1a.jar",
+            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "net.wisecase2:stutterfix:mc1.20.1-0.2.0@jar",
-          "name": "StutterFix",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 26413,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/stutterfix-mc1.20.1-0.2.0.jar",
-            "MD5": "b32ba2db1286720545733023c724f0cf"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.github.getchoo.smoothboot:threadtweak:1.20.2-0.1.1@jar",
+          "id": "com.github.getchoo.smoothboot:threadtweak:1.20.4-0.1.2@jar",
           "name": "ThreadTweak",
           "type": "FabricMod",
           "artifact": {
-            "size": 144848,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/threadtweak-fabric-1.20.2-0.1.1.jar",
-            "MD5": "3db999f5fc9b78fdbbf66d12461d49f5"
+            "size": 144229,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/threadtweak-fabric-1.20.4-0.1.2.jar",
+            "MD5": "e946665cf4916b4c4c48fbf94ea510ba"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "visuality:visuality:0.7.1+1.20@jar",
+          "id": "com.velum:videotape:1.2.1@jar",
+          "name": "Video Tape",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24107,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/videotape-1.2.1.jar",
+            "MD5": "ae3d05e11e72621ce5ebfd671c464580"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "visuality:visuality:0.7.3+1.20.4@jar",
           "name": "Visuality",
           "type": "FabricMod",
           "artifact": {
-            "size": 67302,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/visuality-0.7.1+1.20.jar",
-            "MD5": "14aaa65078fcff3af29fef4e1d7d2161"
+            "size": 67736,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/visuality-0.7.3+1.20.4.jar",
+            "MD5": "91b59bce3b40e7f86c78848e78b81ce5"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.ishland:vmp:0.2.0+beta.7.102@jar",
+          "id": "com.ishland:vmp:0.2.0+beta.7.138@jar",
           "name": "Very Many Players",
           "type": "FabricMod",
           "artifact": {
-            "size": 487043,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/vmp-fabric-mc1.20.1-0.2.0+beta.7.102-all.jar",
-            "MD5": "00831c52f753614a2f33bb288235ace1"
+            "size": 459058,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/vmp-fabric-mc1.20.4-0.2.0+beta.7.138-all.jar",
+            "MD5": "264bb0dfe18a3b439828c31af429f87f"
           },
           "required": {
             "value": false
@@ -1101,58 +1201,71 @@
           "name": "WaveyCapes",
           "type": "FabricMod",
           "artifact": {
-            "size": 355124,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/waveycapes-fabric-1.4.4-mc1.20.1.jar",
-            "MD5": "87f0a0da0d8668ea404768f86d1c8bbe"
+            "size": 355443,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/waveycapes-fabric-1.4.4-mc1.20.4.jar",
+            "MD5": "56e3550cc04acbacd27d16af6763d889"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "xaero.minimap:xaerominimap:23.9.7@jar",
+          "id": "dev.redcarlos26:widertab:1.0.0+1.20.4@jar",
+          "name": "WiderTab",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14018,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/widertab-1.0.0+1.20.4.jar",
+            "MD5": "86220f920db1072babdc67c99fe47bdd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimapfair:23.9.6@jar",
           "name": "Xaero's Minimap",
           "type": "FabricMod",
           "artifact": {
-            "size": 1413155,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Xaeros_Minimap_23.9.7_Fabric_1.20.jar",
-            "MD5": "3279298080e853dfd16d063e44e59ebe"
+            "size": 1412294,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/Xaeros_Minimap_FP23.9.6_Fabric_1.20.4.jar",
+            "MD5": "740fcbfbd70874f7b3626e43b00c3ace"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:yet_another_config_lib_v3:3.2.2+1.20@jar",
+          "id": "xaero.map:xaeroworldmap:1.37.8@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 938687,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/XaerosWorldMap_1.37.8_Fabric_1.20.4.jar",
+            "MD5": "6be8e4ca9bea8cf7af2da26919e53809"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.3.2+1.20.4@jar",
           "name": "YetAnotherConfigLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 981831,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/required/yet-another-config-lib-fabric-3.2.2+1.20.jar",
-            "MD5": "4890dcf3b942e82eaefb500243b90c41"
+            "size": 979275,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/yet-another-config-lib-fabric-3.3.2+1.20.4.jar",
+            "MD5": "6e7dd15c39d9e13c83589134e41a2d03"
           }
         },
         {
-          "id": "net.medievalmusic:medievalmusic:1.20.1-2.1@jar",
-          "name": "Medieval Music Mod",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 304414450,
-            "url": "https://mediafilez.forgecdn.net/files/4612/765/zmedievalmusic-fabric-1.20.1-2.1.jar",
-            "MD5": "6071d9dd8d56cf2c05afb85f6ee8f019"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "dev.isxander:zoomify:2.11.2@jar",
+          "id": "dev.isxander:zoomify:2.13.0@jar",
           "name": "Zoomify",
           "type": "FabricMod",
           "artifact": {
-            "size": 999881,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/fabricmods/optionalon/Zoomify-2.11.2.jar",
-            "MD5": "b65dc8a0de38334e3025fea1f8f72e3b"
+            "size": 1055608,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/Zoomify-2.13.0.jar",
+            "MD5": "d6e39b6d76378817b36d746ee47fceed"
           },
           "required": {
             "value": false
@@ -1164,7 +1277,7 @@
           "type": "File",
           "artifact": {
             "size": 1103,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/biomemusic.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/biomemusic.json",
             "MD5": "ee94c7e3079a9bd0987812410c2d7052",
             "path": "config/biomemusic.json"
           }
@@ -1175,9 +1288,97 @@
           "type": "File",
           "artifact": {
             "size": 180,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/dashloader.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/dashloader.json",
             "MD5": "733eac901862a9f957498180be40eabd",
             "path": "config/dashloader.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 264,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/iris.properties",
+            "MD5": "84bc070a9ed81de013c976b76b564843",
+            "path": "config/defaultoptions/extra/config/iris.properties"
+          }
+        },
+        {
+          "id": "lambdynlights.toml",
+          "name": "lambdynlights.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1112,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/lambdynlights.toml",
+            "MD5": "b1016e7d1cb5fc35e6545d1e48b1aa4a",
+            "path": "config/defaultoptions/extra/config/lambdynlights.toml"
+          }
+        },
+        {
+          "id": "languagereload.json",
+          "name": "languagereload.json",
+          "type": "File",
+          "artifact": {
+            "size": 138,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/languagereload.json",
+            "MD5": "a3d05ac65eba60160ca6273fd3df1a87",
+            "path": "config/defaultoptions/extra/config/languagereload.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 1688,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/sodium-extra-options.json",
+            "MD5": "ea92ddce68f28e32465fc5253a28837f",
+            "path": "config/defaultoptions/extra/config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 627,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/sodium-options.json",
+            "MD5": "0ad106f3d9288746ea64e4d5be8f9605",
+            "path": "config/defaultoptions/extra/config/sodium-options.json"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/xaerominimap-common.txt",
+            "MD5": "3806362283e66fca780eff39eb5e5e8d",
+            "path": "config/defaultoptions/extra/config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3659,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/xaerominimap.txt",
+            "MD5": "80a6b0a0189d99bf32d86b7930c9fd79",
+            "path": "config/defaultoptions/extra/config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5591,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/config/xaerominimap_entities.json",
+            "MD5": "a02b452dffd30bbef29c91e3052afb2f",
+            "path": "config/defaultoptions/extra/config/xaerominimap_entities.json"
           }
         },
         {
@@ -1186,9 +1387,53 @@
           "type": "File",
           "artifact": {
             "size": 1430,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/extra/plasmovoice/client.toml",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/plasmovoice/client.toml",
             "MD5": "abf565816f95fb31a2da20cf7db6e352",
             "path": "config/defaultoptions/extra/plasmovoice/client.toml"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Low.zip",
+          "name": "Chocapic13_V9_Low.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2421404,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/Chocapic13_V9_Low.zip",
+            "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
+            "path": "config/defaultoptions/extra/shaderpacks/Chocapic13_V9_Low.zip"
+          }
+        },
+        {
+          "id": "Photon.zip",
+          "name": "Photon.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1550005,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/Photon.zip",
+            "MD5": "b913980cc0c197f598b4c58f0db29b83",
+            "path": "config/defaultoptions/extra/shaderpacks/Photon.zip"
+          }
+        },
+        {
+          "id": "RTUShader-v4.2.zip",
+          "name": "RTUShader-v4.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 932571,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/RTUShader-v4.2.zip",
+            "MD5": "bf170c5db6106c4b12b10fe1b8b92b26",
+            "path": "config/defaultoptions/extra/shaderpacks/RTUShader-v4.2.zip"
+          }
+        },
+        {
+          "id": "SEUS-Renewed-Low.zip",
+          "name": "SEUS-Renewed-Low.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7069209,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/SEUS-Renewed-Low.zip",
+            "MD5": "6f4ad9a30baeb808119bb3d586e79799",
+            "path": "config/defaultoptions/extra/shaderpacks/SEUS-Renewed-Low.zip"
           }
         },
         {
@@ -1197,7 +1442,7 @@
           "type": "File",
           "artifact": {
             "size": 3284,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/keybindings.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/keybindings.txt",
             "MD5": "28ee9163c8ee931beb1944c15ae94c82",
             "path": "config/defaultoptions/keybindings.txt"
           }
@@ -1208,7 +1453,7 @@
           "type": "File",
           "artifact": {
             "size": 2488,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/options.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/options.txt",
             "MD5": "3d91c180b2c0c9f105c0d211d239c5da",
             "path": "config/defaultoptions/options.txt"
           }
@@ -1219,7 +1464,7 @@
           "type": "File",
           "artifact": {
             "size": 8923,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/defaultoptions/servers.dat",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/servers.dat",
             "MD5": "17a67c9c5a6c598e49a33e2e492256f0",
             "path": "config/defaultoptions/servers.dat"
           }
@@ -1230,7 +1475,7 @@
           "type": "File",
           "artifact": {
             "size": 264,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/iris.properties",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/iris.properties",
             "MD5": "84bc070a9ed81de013c976b76b564843",
             "path": "config/iris.properties"
           }
@@ -1241,7 +1486,7 @@
           "type": "File",
           "artifact": {
             "size": 1112,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/lambdynlights.toml",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/lambdynlights.toml",
             "MD5": "b1016e7d1cb5fc35e6545d1e48b1aa4a",
             "path": "config/lambdynlights.toml"
           }
@@ -1252,7 +1497,7 @@
           "type": "File",
           "artifact": {
             "size": 138,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/languagereload.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/languagereload.json",
             "MD5": "a3d05ac65eba60160ca6273fd3df1a87",
             "path": "config/languagereload.json"
           }
@@ -1263,7 +1508,7 @@
           "type": "File",
           "artifact": {
             "size": 1688,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/sodium-extra-options.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/sodium-extra-options.json",
             "MD5": "ea92ddce68f28e32465fc5253a28837f",
             "path": "config/sodium-extra-options.json"
           }
@@ -1274,7 +1519,7 @@
           "type": "File",
           "artifact": {
             "size": 627,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/sodium-options.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/sodium-options.json",
             "MD5": "0ad106f3d9288746ea64e4d5be8f9605",
             "path": "config/sodium-options.json"
           }
@@ -1285,7 +1530,7 @@
           "type": "File",
           "artifact": {
             "size": 115,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap-common.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/xaerominimap-common.txt",
             "MD5": "3806362283e66fca780eff39eb5e5e8d",
             "path": "config/xaerominimap-common.txt"
           }
@@ -1296,7 +1541,7 @@
           "type": "File",
           "artifact": {
             "size": 3659,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap.txt",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/xaerominimap.txt",
             "MD5": "80a6b0a0189d99bf32d86b7930c9fd79",
             "path": "config/xaerominimap.txt"
           }
@@ -1307,7 +1552,7 @@
           "type": "File",
           "artifact": {
             "size": 5591,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/config/xaerominimap_entities.json",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/xaerominimap_entities.json",
             "MD5": "a02b452dffd30bbef29c91e3052afb2f",
             "path": "config/xaerominimap_entities.json"
           }
@@ -1318,7 +1563,7 @@
           "type": "File",
           "artifact": {
             "size": 2421404,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/Chocapic13_V9_Low.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Chocapic13_V9_Low.zip",
             "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
             "path": "shaderpacks/Chocapic13_V9_Low.zip"
           }
@@ -1329,7 +1574,7 @@
           "type": "File",
           "artifact": {
             "size": 1550005,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/Photon.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Photon.zip",
             "MD5": "b913980cc0c197f598b4c58f0db29b83",
             "path": "shaderpacks/Photon.zip"
           }
@@ -1340,7 +1585,7 @@
           "type": "File",
           "artifact": {
             "size": 932571,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/RTUShader-v4.2.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/RTUShader-v4.2.zip",
             "MD5": "bf170c5db6106c4b12b10fe1b8b92b26",
             "path": "shaderpacks/RTUShader-v4.2.zip"
           }
@@ -1351,7 +1596,7 @@
           "type": "File",
           "artifact": {
             "size": 7069209,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.1/files/shaderpacks/SEUS-Renewed-Low.zip",
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/SEUS-Renewed-Low.zip",
             "MD5": "6f4ad9a30baeb808119bb3d586e79799",
             "path": "shaderpacks/SEUS-Renewed-Low.zip"
           }
