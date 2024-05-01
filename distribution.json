@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "813010872062443530",
@@ -887,19 +887,6 @@
           }
         },
         {
-          "id": "me.fzzyhmstrs:particle_core:0.1.2+1.20@jar",
-          "name": "Particle Core",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 278345,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/particle_core-0.1.2+1.20.jar",
-            "MD5": "942db05c2268550e87d0cf5328cb3641"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "pigcart.particlerain:particlerain:2.0.8@jar",
           "name": "Particle Rain",
           "type": "FabricMod",
@@ -1378,9 +1365,9 @@
           "name": "Photon.zip",
           "type": "File",
           "artifact": {
-            "size": 1575544,
+            "size": 1582360,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Photon.zip",
-            "MD5": "d23bec60ca664efcbc066abcd7a0adbb",
+            "MD5": "5ed7082f2c9ba549cedbf68c2226f2e2",
             "path": "shaderpacks/Photon.zip"
           }
         },
