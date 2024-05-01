@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "813010872062443530",
@@ -9,14 +9,14 @@
   "servers": [
     {
       "id": "festival-1.20.4",
-      "name": "페스티벌",
+      "name": "페스티벌 2",
       "description": "크리에이터의 화려한 놀이터! (1.20.4)",
       "icon": "https://github.com/RTUServer/FestivalLauncher-Files/raw/main/server-icon.png",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
-        "shortId": "Festival 1.20.4",
+        "shortId": "페스티벌 시즌 2",
         "largeImageText": "페스티벌 서버",
         "largeImageKey": "server-icon"
       },
@@ -368,6 +368,19 @@
           }
         },
         {
+          "id": "com.seibel:distanthorizons:2.0.4-a-dev@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16290554,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/DistantHorizons-fabric-2.0.4-a-dev-1.20.4.jar",
+            "MD5": "3326783250fde566675ff47b45e24b38"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "me.pieking1215:waterdripsound:1.19-0.3.2@jar",
           "name": "Drip Sounds",
           "type": "FabricMod",
@@ -610,13 +623,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.7.0@jar",
+          "id": "generated.fabricmod:iris:1.7.0+mc1.20.4@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2653303,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/iris-1.7.0-snapshot+mc1.20.4-build.5114.jar",
-            "MD5": "ef334dca8036aa3b28872169e462a596"
+            "size": 2671419,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/iris-1.7.0+mc1.20.4.jar",
+            "MD5": "4cd07c5091cc9646ea26f7242a316bbe"
           }
         },
         {
@@ -871,6 +884,19 @@
             "size": 613589,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/required/optigui-2.3.0-alpha.2.jar",
             "MD5": "ad0a22fcfb548e182179e4fd506f2ebf"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:particle_core:0.1.2+1.20@jar",
+          "name": "Particle Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 278345,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/fabricmods/optionalon/particle_core-0.1.2+1.20.jar",
+            "MD5": "942db05c2268550e87d0cf5328cb3641"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1304,50 +1330,6 @@
           }
         },
         {
-          "id": "Chocapic13_V9_Low.zip",
-          "name": "Chocapic13_V9_Low.zip",
-          "type": "File",
-          "artifact": {
-            "size": 2421404,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/Chocapic13_V9_Low.zip",
-            "MD5": "c370a206d8d2ddfaab218c1561a57ec7",
-            "path": "config/defaultoptions/extra/shaderpacks/Chocapic13_V9_Low.zip"
-          }
-        },
-        {
-          "id": "Photon.zip",
-          "name": "Photon.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1569496,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/Photon.zip",
-            "MD5": "81b59f66817447f3fcd9e9febd4369ea",
-            "path": "config/defaultoptions/extra/shaderpacks/Photon.zip"
-          }
-        },
-        {
-          "id": "RTUShader-v4.2.zip",
-          "name": "RTUShader-v4.2.zip",
-          "type": "File",
-          "artifact": {
-            "size": 932571,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/RTUShader-v4.2.zip",
-            "MD5": "bf170c5db6106c4b12b10fe1b8b92b26",
-            "path": "config/defaultoptions/extra/shaderpacks/RTUShader-v4.2.zip"
-          }
-        },
-        {
-          "id": "SEUS-Renewed-Low.zip",
-          "name": "SEUS-Renewed-Low.zip",
-          "type": "File",
-          "artifact": {
-            "size": 7069209,
-            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/config/defaultoptions/extra/shaderpacks/SEUS-Renewed-Low.zip",
-            "MD5": "6f4ad9a30baeb808119bb3d586e79799",
-            "path": "config/defaultoptions/extra/shaderpacks/SEUS-Renewed-Low.zip"
-          }
-        },
-        {
           "id": "keybindings.txt",
           "name": "keybindings.txt",
           "type": "File",
@@ -1381,16 +1363,58 @@
           }
         },
         {
-          "id": "net.medievalmusic:medievalmusic:1.20.1-2.1@jar",
-          "name": "Medieval Music Mod",
-          "type": "FabricMod",
+          "id": "Bliss.zip",
+          "name": "Bliss.zip",
+          "type": "File",
           "artifact": {
-            "size": 304414450,
-            "url": "https://mediafilez.forgecdn.net/files/4612/765/zmedievalmusic-fabric-1.20.1-2.1.jar",
-            "MD5": "6071d9dd8d56cf2c05afb85f6ee8f019"
-          },
-          "required": {
-            "value": false
+            "size": 1697643,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Bliss.zip",
+            "MD5": "60a2853b6d2a7421162d57a9356f5437",
+            "path": "shaderpacks/Bliss.zip"
+          }
+        },
+        {
+          "id": "Photon.zip",
+          "name": "Photon.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1575544,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Photon.zip",
+            "MD5": "d23bec60ca664efcbc066abcd7a0adbb",
+            "path": "shaderpacks/Photon.zip"
+          }
+        },
+        {
+          "id": "RTUShader-v5.0.zip",
+          "name": "RTUShader-v5.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 953750,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/RTUShader-v5.0.zip",
+            "MD5": "6a85d76636dabb43be2185b660d8a7b9",
+            "path": "shaderpacks/RTUShader-v5.0.zip"
+          }
+        },
+        {
+          "id": "SEUS-Renewed-Low.zip",
+          "name": "SEUS-Renewed-Low.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7069209,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/SEUS-Renewed-Low.zip",
+            "MD5": "6f4ad9a30baeb808119bb3d586e79799",
+            "path": "shaderpacks/SEUS-Renewed-Low.zip"
+          }
+        },
+        {
+          "id": "Shrimple.zip",
+          "name": "Shrimple.zip",
+          "type": "File",
+          "artifact": {
+            "size": 10561761,
+            "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/Shrimple.zip",
+            "MD5": "8012fd24d43aab58092680bf44a55f5e",
+            "path": "shaderpacks/Shrimple.zip"
           }
         }
       ]
