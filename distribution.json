@@ -16,9 +16,9 @@
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "페스티벌 시즌 2",
+        "largeImageText": "페스티벌 서버",
+        "largeImageKey": "server-icon"
       },
       "mainServer": true,
       "autoconnect": true,
