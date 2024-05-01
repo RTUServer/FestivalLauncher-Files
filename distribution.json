@@ -16,9 +16,9 @@
       "address": "play.rtuserver.kr",
       "minecraftVersion": "1.20.4",
       "discord": {
-        "shortId": "페스티벌 시즌 2",
-        "largeImageText": "페스티벌 서버",
-        "largeImageKey": "server-icon"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
       "autoconnect": true,
@@ -1376,9 +1376,9 @@
           "name": "RTUShader-v5.0.zip",
           "type": "File",
           "artifact": {
-            "size": 953750,
+            "size": 953760,
             "url": "https://raw.githubusercontent.com/RTUServer/FestivalLauncher-Files/main/servers/festival-1.20.4/files/shaderpacks/RTUShader-v5.0.zip",
-            "MD5": "6a85d76636dabb43be2185b660d8a7b9",
+            "MD5": "3fea6f0017b16831ee31322f6d3f0568",
             "path": "shaderpacks/RTUShader-v5.0.zip"
           }
         },
